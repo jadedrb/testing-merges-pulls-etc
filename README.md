@@ -5,7 +5,7 @@ update 2 ... but what if
 update 3 ... from origin!
 update 4 ... and then
 update 5 ... and such
-update 6
+update 6 ... but local though
 update 7 ... hmmm
 update 8 ... but then
 
@@ -19,4 +19,6 @@ wowzer feat ... like i say
 another feature : 
 
 like whatever bruh
+but local 
 
+but that local though
