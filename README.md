@@ -3,7 +3,7 @@
 update 1
 update 2
 update 3
-update 4
+update 4 ... and then
 update 5 ... and such
 update 6
 update 7
