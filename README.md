@@ -8,3 +8,15 @@ update 5 ... and such
 update 6
 update 7
 update 8
+
+new feature :
+
+oog booga
+wow sick
+wait hold up
+wowzer feat ... like i say
+
+another feature : 
+
+like whatever bruh
+
