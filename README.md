@@ -7,7 +7,7 @@ update 4 ... and then
 update 5 ... and such
 update 6
 update 7
-update 8
+update 8 ... but then
 
 new feature :
 
