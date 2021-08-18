@@ -23,5 +23,9 @@ but local
 
 but that local though
 
+<<<<<<< HEAD
 testing in aug
+=======
+another one with ssh this time
+>>>>>>> 509f017f57e7bac73ea43f01f7c4c9c824334cde
 
