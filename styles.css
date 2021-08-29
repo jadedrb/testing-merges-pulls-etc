@@ -1,0 +1,23 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  p {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: grey;
+    width: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
