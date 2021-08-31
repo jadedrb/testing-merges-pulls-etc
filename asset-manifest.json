@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/testing-merges-pulls-etc/static/css/main.2dd2177e.chunk.css",
+    "main.js": "/testing-merges-pulls-etc/static/js/main.f1819849.chunk.js",
+    "main.js.map": "/testing-merges-pulls-etc/static/js/main.f1819849.chunk.js.map",
+    "runtime-main.js": "/testing-merges-pulls-etc/static/js/runtime-main.ada2c2e9.js",
+    "runtime-main.js.map": "/testing-merges-pulls-etc/static/js/runtime-main.ada2c2e9.js.map",
+    "static/js/2.f8a4fc88.chunk.js": "/testing-merges-pulls-etc/static/js/2.f8a4fc88.chunk.js",
+    "static/js/2.f8a4fc88.chunk.js.map": "/testing-merges-pulls-etc/static/js/2.f8a4fc88.chunk.js.map",
+    "index.html": "/testing-merges-pulls-etc/index.html",
+    "static/css/main.2dd2177e.chunk.css.map": "/testing-merges-pulls-etc/static/css/main.2dd2177e.chunk.css.map",
+    "static/js/2.f8a4fc88.chunk.js.LICENSE.txt": "/testing-merges-pulls-etc/static/js/2.f8a4fc88.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ada2c2e9.js",
+    "static/js/2.f8a4fc88.chunk.js",
+    "static/css/main.2dd2177e.chunk.css",
+    "static/js/main.f1819849.chunk.js"
+  ]
+}
