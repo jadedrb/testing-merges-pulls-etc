@@ -1,11 +1,28 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 
-export default class About extends React.Component {
-    render() {
-        return (
-            <div>
-                About Page
-            </div>
-        )
+const About = () => {
+
+    let [winWidth, setWinWidth] = useState(window.innerWidth)
+
+    const handleResize = () => {
+        setWinWidth(window.innerWidth)
     }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize)
+
+        return () => {
+            console.log('useEffect runs: Event listener removed')
+            window.removeEventListener('resize', handleResize)
+        }
+    }, [])
+
+    return ( 
+        <>
+            <h1>About Page</h1>
+            <p>Width: { winWidth }</p>
+        </>
+    );
 }
+ 
+export default About;
