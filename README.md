@@ -9,19 +9,3 @@ update 6 ... origin strikes again! but merge fixed
 update 7 ... hmmm
 update 8 ... but then
 
-new feature :
-
-oog booga
-wow sick
-wait hold up
-wowzer feat ... like i say
-
-another feature : 
-
-like whatever bruh
-but local 
-
-but that local though
-
-another one with ssh this time
-
