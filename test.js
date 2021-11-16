@@ -23,12 +23,3 @@ let groceries = [
       return false
     }
   })
-/*
-  let purchasedItems = groceries.filter((grocery, index) => {
-    if (grocery.isPurchased === true) {
-      return true
-    } else {
-      return false
-    }
-  })
-*/
