@@ -31,20 +31,3 @@ let groceries = [
       return false
     }
   })
-
-  console.log('Groceries: ')
-  console.log(groceries)
-  console.log('Not Purchased: ')
-  console.log(notPurchasedItems)
-  console.log('Purchased: ')
-  console.log(purchasedItems)
-
-
-
-  console.log('Groceries After Splice: ')
-  let groceriesCopy = groceries.slice()
-  let removedItem = groceriesCopy.splice(1, 1)
-  console.log(groceriesCopy)
-
-  console.log('Removed Grocery Item: ')
-  console.log(removedItem)
