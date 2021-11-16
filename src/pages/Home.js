@@ -6,9 +6,13 @@ const Home = () => {
 
     useEffect(() => {
         console.log('useEffect runs: API fetch')
-        fetch('https://jsonplaceholder.typicode.com/posts/')
-            .then(response => response.json())
-            .then(result => setData(result))
+        
+        // fetch('https://jsonplaceholder.typicode.com/posts/')
+        //     .then(response => response.json())
+        //     .then(result => setData(result))
+
+        // local storage stuff
+        
     }, [])
 
     return ( 

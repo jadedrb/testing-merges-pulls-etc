@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from 'react';
+import { useHistory } from 'react-router-dom'
 
 const FormUncontrolFunction = () => {
+
+    let history = useHistory()
 
     let userNameRef = useRef()
     let passwordRef = useRef()
@@ -8,7 +11,8 @@ const FormUncontrolFunction = () => {
 
     useEffect(() => {
         userNameRef.current.focus()
-    }, [])
+        console.log(history)
+    }, [history])
 
     const handleSubmit = e => {
         e.preventDefault()
@@ -19,7 +23,17 @@ const FormUncontrolFunction = () => {
             email: emailRef.current.value
         }
 
+        history.goForward()
         console.log(formData)
+
+        // turn object to string and put in local storage
+        localStorage.setItem('test', JSON.stringify(formData))
+        console.log('into string format: ', localStorage.getItem('test'))
+
+        // turning string in local storage back to object
+        setTimeout(() => {
+            console.log('back to object format: ', JSON.parse(localStorage.getItem('test')))
+        }, 3000)
     }
 
     return (  

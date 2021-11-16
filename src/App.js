@@ -8,21 +8,16 @@ import Contact from './pages/FormUncontrolFunction'
 
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
+// import images from './images'
+
 class App extends React.Component {
-
-  componentDidMount() {
-    console.log(process.env.REACT_APP_API_KEY, ": API key")
-  }
-
-  componentDidUpdate() {}
-
-  componentWillUnmount() {}
 
   render() {
 
+    // console.log(process.env.REACT_APP_API_KEY)
     return (
       <Router>
-
+     
         <ul>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/profile'>Profile</Link></li>
@@ -37,7 +32,7 @@ class App extends React.Component {
           <Route path='/profile' component={Profile} />
           <Route path='/contact' component={Contact} />
           <Route path='/other' component={Other} />
-        </Switch>
+       </Switch>
 
       </Router>
     )
