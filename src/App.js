@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Profile from './pages/Profile'
 import Other from './pages/Other'
-import Contact from './pages/FormUncontrolFunction'
+import Contact from './otherForms/FormUncontrolClass'
 
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 

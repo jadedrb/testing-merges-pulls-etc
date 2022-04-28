@@ -2,13 +2,16 @@ import React, { Component, createRef } from 'react';
 
 class FormUncontrolClass extends Component {
 
-    state = {  
-        formData: {}
-    }
+    constructor() {
+        super()
+        this.state = {  
+            formData: {}
+        }
 
-    userNameRef = createRef()
-    passwordRef = createRef()
-    emailRef = createRef()
+        this.userNameRef = createRef()
+        this.passwordRef = createRef()
+        this.emailRef = createRef()
+    }
 
     handleSubmit = e => {
         e.preventDefault()
@@ -16,7 +19,7 @@ class FormUncontrolClass extends Component {
         let formData = {
             username: this.userNameRef.current.value,
             password: this.passwordRef.current.value,
-            email: this.email.value
+            email: this.emailRef.current.value
         }
 
         console.log(formData)
@@ -24,6 +27,7 @@ class FormUncontrolClass extends Component {
     }
 
     render() { 
+        console.log('Uncontrolled Form (class)')
         return (  
             <form onSubmit={this.handleSubmit}>
 
@@ -43,7 +47,7 @@ class FormUncontrolClass extends Component {
                 <label htmlFor="email">email:</label>
                 <input 
                     id="email" 
-                    ref={element => this.email = element}  
+                    ref={this.emailRef}
                     type="email"
                 />
 
@@ -55,3 +59,7 @@ class FormUncontrolClass extends Component {
 }
  
 export default FormUncontrolClass;
+
+
+
+// ref={element => this.email = element}  

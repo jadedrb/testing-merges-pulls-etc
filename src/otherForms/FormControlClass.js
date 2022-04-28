@@ -2,21 +2,21 @@ import React, { Component } from 'react';
 
 class FormControlClass extends Component {
 
-    state = {  
-        username: '',
-        password: '',
-        email: '',
-        submitted: false
-    }
+    constructor() {
+        super()
 
-    componentDidMount() {
-        
+        this.state = {  
+            username: '',
+            password: '',
+            email: '',
+            submitted: false
+        }
     }
 
     handleChange = event => this.setState({ [event.target.id]: event.target.value })
 
     render() { 
-
+        console.log('Controlled Form (class)')
         return (  
             <form onSubmit={this.handleSubmit}>
 
